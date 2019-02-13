@@ -1,0 +1,166 @@
+/*
+Reglas 
+Selectores
+Declaraciones
+Propiedades
+Valores
+*/
+
+/* .header {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(227,188,16,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(227,188,16,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(227,188,16,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(227,188,16,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(227,188,16,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(227,188,16,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3bc10', GradientType=1 );
+  color: red;
+} */
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1.5em;
+  letter-spacing: -.2px;
+  color: white;
+  margin: 100px 150px 70px 30px;
+}
+ h1 strong{
+  color: #026fff;
+}
+.hero{
+  height: 300px;
+  background-image: url('../images/hero.jpg');
+  background-color: #1b2127;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.portfolio {
+  background: #fafafa;
+}
+
+.project{
+  border: 2px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius: 280px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius : 10px;
+  border-bottom-right-radius : 280px;
+  width: 50%; */
+  /*border-right: 10px solid green;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid pink; */
+  /* border-top-color: red;
+  border-top-width: 5px;
+  border-top-style: solid; */
+  /* width: 500px; */
+  margin-bottom: 15px;
+  /* margin-left
+  margin-bottom
+  margin-right */
+  padding: 20px;
+  margin: 10px;
+  background: white;
+}
+
+.project-details{
+  width: 500px;
+  /*height: 100px;*/
+}
+.project-imageContainer{
+  width: 500px;
+  /*float: right;*/
+}
+.header {
+  background: #1b2127;
+  color: white;
+  display: flex;
+  /*align-items: center;*/
+  height: 90px;
+
+  justify-content: space-between
+}
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure{
+  margin: 0;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  height: inherit;
+}
+
+
+.header ol {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+
+.header ol li {
+  height: inherit;
+  display: flex;
+}
+/*
+  Selector de etiqueta 
+  ejemplo
+  header - section - article - nav
+*/
+/*
+  Selector  descendente
+  body header div nav ol li a
+*/
+/* 
+  Selector de Clase . 
+*/
+
+/*
+  Selector id #
+*/
+/*
+  #portafolio
+*/
+
+
+/*
+*/
+.flexbox {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  /* height: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid blue; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid red;
+
+  flex-shrink: 0;
+  text-align: center;
+}
