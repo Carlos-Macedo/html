@@ -188,3 +188,8 @@ figure{
 .footer a {
   color: white;
 }
+
+.event {
+  border: 1px solid red;
+  
+}
