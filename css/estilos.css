@@ -87,7 +87,7 @@ h1{
   background: #1b2127;
   color: white;
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
   height: 90px;
 
   justify-content: space-between
