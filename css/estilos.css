@@ -33,7 +33,9 @@ h1{
   line-height: 1.5em;
   letter-spacing: -.2px;
   color: white;
-  margin: 100px 150px 70px 30px;
+  margin: 0;
+
+  /* margin: 100px 150px 70px 30px; */
 }
  h1 strong{
   color: #026fff;
@@ -45,6 +47,8 @@ h1{
   background-size: 500px;
   background-repeat: no-repeat;
   background-position-x: right;
+  display: flex;
+  align-items: center; 
 }
 
 .portfolio {
@@ -87,9 +91,8 @@ h1{
   background: #1b2127;
   color: white;
   display: flex;
-  align-items: center;
-  height: 90px;
-
+  height: 70px;
+  align-items: center;  
   justify-content: space-between
 }
 ol, ul {
@@ -111,16 +114,23 @@ figure{
   height: inherit;
 }
 
-
 .header ol {
   display: flex;
   height: inherit;
-  align-items: center;
+  
 }
 
 .header ol li {
   height: inherit;
+  /* height: inherit; */
+}
+
+.header a {
   display: flex;
+  align-items: center;
+  /* display: block; */
+  height: inherit;
+  padding: 0 10px;
 }
 /*
   Selector de etiqueta 
@@ -163,4 +173,18 @@ figure{
 
   flex-shrink: 0;
   text-align: center;
+}
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 15px;
+}
+.footer img {
+  vertical-align: middle;
+}
+.footer a {
+  color: white;
 }
