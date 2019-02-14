@@ -189,7 +189,49 @@ figure{
   color: white;
 }
 
+.event-list{
+  display: flex;
+}
+.event-list-title{
+  margin-left: 20px;
+}
+
 .event {
-  border: 1px solid red;
-  
+  /* border: 1px solid red; */
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+
+}
+.event img {
+  width: 480px;
+  height: 265px;
+  object-fit: cover;
+  /* border-radius: 10px; */
+}
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -30px;
+  background-color: white;
+  position: relative;
+  border-radius: 15px;
+  padding: 20px; 
+  text-align: center;
+}
+.event-description{
+  text-align: center;
+}
+.event-url{
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.contact {
+  background-color: #056fff;
+   
 }
