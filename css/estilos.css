@@ -58,7 +58,16 @@ h1{
 
 .portfolio {
   background: #fafafa;
+  padding: 20px;
 }
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
 
 .project{
   border: 2px solid gray;
@@ -82,6 +91,9 @@ h1{
   padding: 20px;
   margin: 10px;
   background: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-details{
@@ -117,6 +129,14 @@ figure{
 
 .menu {
   height: inherit;
+}
+
+.menu ol li a:hover {
+    color: #1c252c;
+    background-color: #ffffff8c;
+    /* border-radius: 25px; */
+    /* padding: 15px; */
+    /* align-items: center; */
 }
 
 .header ol {
