@@ -57,7 +57,7 @@ h1{
 }
 
 .portfolio {
-  background: #fafafa;
+  background: #1b2127;
   padding: 20px;
 }
 h2 {
@@ -139,6 +139,11 @@ figure{
     /* align-items: center; */
 }
 
+.title-events{
+  background: #1b2127;
+  display: flex;
+}
+
 .header ol {
   display: flex;
   height: inherit;
@@ -217,6 +222,7 @@ figure{
 .event-list{
   display: flex;
   flex-wrap: wrap;
+  background: #1b2127
 }
 .event-list-title{
   margin-left: 20px;
