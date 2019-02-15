@@ -53,6 +53,7 @@ h1{
 }
 .hero-image {
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .portfolio {
@@ -195,6 +196,7 @@ figure{
 
 .event-list{
   display: flex;
+  flex-wrap: wrap;
 }
 .event-list-title{
   margin-left: 20px;
@@ -301,11 +303,12 @@ figure{
   
 }
 .container {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
+  flex-wrap: inherit;
 }
