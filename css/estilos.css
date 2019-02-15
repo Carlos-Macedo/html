@@ -220,6 +220,8 @@ figure{
   border-radius: 15px;
   padding: 20px; 
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 22px -4px;
+
 }
 .event-description{
   text-align: center;
@@ -292,4 +294,5 @@ figure{
 
 .form-email h3{
   font-family: 'Source Sans Pro', sans-serif;
+  
 }
